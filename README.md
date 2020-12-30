@@ -1,19 +1,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="git-merge-conflict.jpg" width="400" height="200">
+  <img src="git-merge-conflict.jpg" alt="Logo" width="300" height="175">
   <h2 align="center">Git Conflict</h2>
   <p align="center">
-    Menjelaskan tentang Conflict di repository
+    Menjelaskan tentang Conflict di repository menurut pendaopat saya
   </p>
 </p>
 
 # Apa saja yang menyebabkan terjadinya conflict?
 
-Git merupakan salah satu tools Version Control System, dimana git ini dapat dilakukan secara offline atau online dengan catatan jika online memerlukan tools tambahan yaitu berupa penyimpanan repo secara cloud seperti Gitlab, Github, Bitbucket, dll. Jadi ketika Git di gunakan secara offline maka perubahan-perubahan yang dilakukan hanya berpengaruh di lokal. Git berfungsi untuk membuat versioning dari file yang kita buat agar mempermudah si pengguna dalam melihat history perubahan file yang dikerjakan.
+Penyebab terjadinya conflict ialah ketika melakukan merge dengan kondisi terdapat perubahan di file yang sama dan baris yang sama. Saat melakukan merge dari 2 branch yang berbeda maka dapat menimbulkan conflict jika terdapat perubahan di file yang sama dan baris yang sama.
 
 # Bagaimana menghindari conflict?
 
-Github merupakan salah satu tools Version Control System juga sama seperti Git tetapi Github secara online tidak bisa secara offline. Penggunaan Github bisa dibilang lebih mudah daripada Git karena kalau Git menggunakan CLI sedangkan Github ada GUI nya berupa dashboard di web, sebenarnya Git pun juga memiliki GUI tetapi jika ingin memahami basic-basic menggunakan Git lebih baik menggunakan CLI. Seperti yang sudah saya jelaskan di bagian Git, Github ini merupakan salah satu tools penyimpanan repo secara cloud yang dapat di modifikasi menggunakan Git dari lokak yang nantinya di push ke repo atau langsung menggunakan dashboard Github nya.
+Cara menghindari conflict adalah dengan saling berkomunikasi dalam melakukan perubahan file agar tidak melakukan perubahan file dan baris yang sama dalam satu waktu yang bersamaan.
 
 # Apa yang harus dilakukan apabila terjadi conflict?
+
+Jika terjadi conflict saat merge dari branch maka solusi nya adalah memilih salah satu mana perubahan yang diinginkan dan yang tidak diinginkan bisa di hapus saja perubahan pada baris serta conflict yang muncul. 
