@@ -4,7 +4,7 @@
   <img src="git-merge-conflict.jpg" alt="Logo" width="300" height="175">
   <h2 align="center">Git Conflict</h2>
   <p align="center">
-    Menjelaskan tentang Conflict di repository menurut pendaopat saya
+    Menjelaskan tentang Conflict di repository menurut pendapat saya
   </p>
 </p>
 
